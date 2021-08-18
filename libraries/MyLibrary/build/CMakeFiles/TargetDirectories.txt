@@ -1,0 +1,3 @@
+/home/boss429/Documents/code/cpp_project_template/libraries/MyLibrary/build/CMakeFiles/rebuild_cache.dir
+/home/boss429/Documents/code/cpp_project_template/libraries/MyLibrary/build/CMakeFiles/edit_cache.dir
+/home/boss429/Documents/code/cpp_project_template/libraries/MyLibrary/build/CMakeFiles/MyLibray.dir
