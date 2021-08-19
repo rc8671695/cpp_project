@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyLibray
+# Target rules for targets named MyLibrary
 
 # Build rule for target.
-MyLibray: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MyLibray
-.PHONY : MyLibray
+MyLibrary: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MyLibrary
+.PHONY : MyLibrary
 
 # fast build rule for target.
-MyLibray/fast:
-	$(MAKE) -f CMakeFiles/MyLibray.dir/build.make CMakeFiles/MyLibray.dir/build
-.PHONY : MyLibray/fast
+MyLibrary/fast:
+	$(MAKE) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/build
+.PHONY : MyLibrary/fast
 
 src/MyLibrary.o: src/MyLibrary.cpp.o
 
@@ -129,7 +129,7 @@ src/MyLibrary.o: src/MyLibrary.cpp.o
 
 # target to build an object file
 src/MyLibrary.cpp.o:
-	$(MAKE) -f CMakeFiles/MyLibray.dir/build.make CMakeFiles/MyLibray.dir/src/MyLibrary.cpp.o
+	$(MAKE) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/src/MyLibrary.cpp.o
 .PHONY : src/MyLibrary.cpp.o
 
 src/MyLibrary.i: src/MyLibrary.cpp.i
@@ -138,7 +138,7 @@ src/MyLibrary.i: src/MyLibrary.cpp.i
 
 # target to preprocess a source file
 src/MyLibrary.cpp.i:
-	$(MAKE) -f CMakeFiles/MyLibray.dir/build.make CMakeFiles/MyLibray.dir/src/MyLibrary.cpp.i
+	$(MAKE) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/src/MyLibrary.cpp.i
 .PHONY : src/MyLibrary.cpp.i
 
 src/MyLibrary.s: src/MyLibrary.cpp.s
@@ -147,7 +147,7 @@ src/MyLibrary.s: src/MyLibrary.cpp.s
 
 # target to generate assembly for a file
 src/MyLibrary.cpp.s:
-	$(MAKE) -f CMakeFiles/MyLibray.dir/build.make CMakeFiles/MyLibray.dir/src/MyLibrary.cpp.s
+	$(MAKE) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/src/MyLibrary.cpp.s
 .PHONY : src/MyLibrary.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... MyLibray"
+	@echo "... MyLibrary"
 	@echo "... src/MyLibrary.o"
 	@echo "... src/MyLibrary.i"
 	@echo "... src/MyLibrary.s"

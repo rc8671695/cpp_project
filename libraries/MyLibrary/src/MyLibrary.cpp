@@ -1,7 +1,7 @@
 #include "MyLibrary.h"
 
 namespace {
-    // local static vars
+    // local vars
 }; // end namespace
 
 MyLibrary::MyLibrary() {
