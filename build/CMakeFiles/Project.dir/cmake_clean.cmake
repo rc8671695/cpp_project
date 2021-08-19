@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Project.dir/src/helpers/OkHelper.cpp.o"
   "CMakeFiles/Project.dir/src/main.cpp.o"
   "CMakeFiles/Project.dir/src/models/Person.cpp.o"
-  "Project"
-  "Project.pdb"
+  "bin/Project"
+  "bin/Project.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

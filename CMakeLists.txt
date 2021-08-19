@@ -4,6 +4,10 @@ cmake_minimum_required(VERSION 3.0)
 # Name of the project
 project(Project)
 
+# For conan
+include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+conan_basic_setup()
+
 # Create new variables for folder names
 set(HELPERS_DIR src/helpers)
 set(MODELS_DIR src/models)
@@ -22,4 +26,4 @@ add_executable(
 add_subdirectory(libraries/MyLibrary)
 
 # Link the executable and the library together
-target_link_libraries(Project MyLibrary)
+target_link_libraries(Project MyLibrary ${CONAN_LIBS})

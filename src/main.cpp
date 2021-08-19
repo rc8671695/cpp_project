@@ -1,3 +1,7 @@
+#include <vector>
+#include <fmt/ranges.h>
+
 int main() {
-    return 0;
+  std::vector<int> v = {1, 2, 3};
+  fmt::print("{}\n", v);
 }

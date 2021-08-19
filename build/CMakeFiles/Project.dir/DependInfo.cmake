@@ -13,6 +13,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/boss429/.conan/data/fmt/8.0.0/_/_/package/30a9781670e6fb2f17b8355b17a15cf916045317/include"
   )
 
 # Targets to which this target links.
